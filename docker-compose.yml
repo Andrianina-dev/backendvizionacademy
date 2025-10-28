@@ -14,8 +14,8 @@ services:
       DB_HOST: db
       DB_PORT: 5432
       DB_DATABASE: vizionacademy
-      DB_USERNAME: laravel_user
-      DB_PASSWORD: secret
+      DB_USERNAME: root
+      DB_PASSWORD: root
     depends_on:
       - db
     volumes:
